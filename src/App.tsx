@@ -1,8 +1,11 @@
+import { Sidebar } from "./components";
 
 const App = () => {
   return (
-    <div className="text-white">App</div>
-  )
-}
+    <div className="app">
+      <Sidebar />
+    </div>
+  );
+};
 
-export default App
+export default App;

@@ -14,7 +14,7 @@
   body {
     font-family: "Poppins", serif;
     font-optical-sizing: auto;
-    background: #663131;
+    background: #000000;
     border-radius: 40px;
     width: 286px;
     height: 1132px;
@@ -41,8 +41,20 @@
 
   /* Styles for utilities */
   @layer utilities{
+    .app{
+      @apply w-full h-full;
+    }
+
     .sidebar{
       @apply w-[286px] h-[1132px] flex-shrink-0 rounded-l-[40px] bg-gradient-to-b from-[#101010] to-transparent;
+    }
+
+    .sidebar-category{
+      @apply flex flex-col;
+    }
+
+    .flex-center{
+      @apply items-center justify-center;
     }
   }
 }

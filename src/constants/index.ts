@@ -49,7 +49,7 @@ export const sidebarLinks = [
     links: [
       {
         title: "Recent",
-        icon: "/assets/recent.svg",
+        icon: "/assets/history.svg",
       },
       {
         title: "Albums",
@@ -65,7 +65,7 @@ export const sidebarLinks = [
       },
       {
         title: "Locals",
-        icon: "/assets/loacals.svg",
+        icon: "/assets/locals.svg",
       },
     ],
   },
